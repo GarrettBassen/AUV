@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "CaptainsLog") (type "KiCad") (uri "${KIPRJMOD}/footprints/CaptainsLog.pretty") (options "") (descr "Captain's Log Custom Footprints"))
+)

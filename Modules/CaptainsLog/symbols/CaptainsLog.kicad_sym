@@ -28,7 +28,7 @@
 				)
 			)
 		)
-		(property "Footprint" "watchstander:FSSD06"
+		(property "Footprint" "CaptainsLog:FSSD06"
 			(at 0 38.608 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -710,7 +710,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "watchstander:GCT_MEM2052"
+		(property "Footprint" "CaptainsLog:GCT_MEM2052"
 			(at 0 24.384 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1090,7 +1090,7 @@
 				)
 			)
 		)
-		(property "Footprint" "watchstander:SP3011-06UTG"
+		(property "Footprint" "CaptainsLog:SP3011-06UTG"
 			(at 0 16.764 0)
 			(show_name no)
 			(do_not_autoplace no)

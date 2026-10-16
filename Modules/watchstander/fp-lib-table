@@ -1,4 +1,0 @@
-(fp_lib_table
-	(version 7)
-	(lib (name "watchstander") (type "KiCad") (uri "${KIPRJMOD}/footprints/watchstander.pretty") (options "") (descr ""))
-)

@@ -488,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "watchstander.kicad_pro",
+    "filename": "CaptainsLog.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -661,12 +661,12 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "watchstander.kicad_sch",
+        "filename": "CaptainsLog.kicad_sch",
         "name": "Root",
         "uuid": "dfd3e194-b5e4-41bf-aa35-3f9382cd25a4"
       }
     ],
-    "used_designators": "FID1,H1-4,U2,D3,D7,J2-3",
+    "used_designators": "FID1,H1-4,U1-2,D1-3,D7,J2-5",
     "variants": []
   },
   "sheets": [
