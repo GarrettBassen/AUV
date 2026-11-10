@@ -3525,7 +3525,7 @@
 	)
 	(text "FSSD06 VDDC Slew Rate Should\nPrevent High Inrush Current"
 		(exclude_from_sim no)
-		(at 115.316 134.62 0)
+		(at 115.316 127.508 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3559,7 +3559,7 @@
 	)
 	(text "SD Select\n0 -> SD1\n1 -> SD2"
 		(exclude_from_sim no)
-		(at 115.57 127.762 0)
+		(at 92.456 105.156 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3608,12 +3608,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "073aac57-a4c4-493f-9586-5bffb304422f")
-	)
-	(junction
-		(at 66.04 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "09f0df51-3c19-4d41-afb9-30d82cd5227c")
 	)
 	(junction
 		(at 91.44 62.23)
@@ -3668,12 +3662,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b2593a8-8949-4723-a1df-f42adb413195")
-	)
-	(junction
-		(at 53.34 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3ed5bb42-34fd-4155-b0b8-aac98650beae")
 	)
 	(junction
 		(at 66.04 83.82)
@@ -3935,7 +3923,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 104.14) (xy 74.93 104.14)
+			(xy 43.18 104.14) (xy 72.39 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4285,16 +4273,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 114.3) (xy 53.34 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a28ee67-7458-47ee-a25c-309eca9a2333")
-	)
-	(wire
-		(pts
 			(xy 199.39 100.33) (xy 199.39 101.6)
 		)
 		(stroke
@@ -4472,16 +4450,6 @@
 			(type default)
 		)
 		(uuid "56899a94-bf2b-4a5e-b417-2b1aba54279e")
-	)
-	(wire
-		(pts
-			(xy 43.18 106.68) (xy 53.34 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56f21acb-dcc5-40a4-8656-94234011b511")
 	)
 	(wire
 		(pts
@@ -4715,7 +4683,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 106.68) (xy 62.23 106.68)
+			(xy 43.18 106.68) (xy 63.5 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4732,16 +4700,6 @@
 			(type default)
 		)
 		(uuid "78107850-e4bd-487e-aa8a-d6788da3a23e")
-	)
-	(wire
-		(pts
-			(xy 66.04 114.3) (xy 66.04 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a56fc2b-f11e-40c3-8184-8c0cf7404137")
 	)
 	(wire
 		(pts
@@ -4882,16 +4840,6 @@
 			(type default)
 		)
 		(uuid "89c43eaf-f29a-42d5-bd41-a24f112603e9")
-	)
-	(wire
-		(pts
-			(xy 53.34 106.68) (xy 53.34 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ad98f78-d02f-42a3-b9b8-564a4a59fadf")
 	)
 	(wire
 		(pts
@@ -5485,16 +5433,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 104.14) (xy 66.04 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f870a516-1fa5-42c5-8c42-f7c41f770a0f")
-	)
-	(wire
-		(pts
 			(xy 132.08 106.68) (xy 148.59 106.68)
 		)
 		(stroke
@@ -5714,7 +5652,7 @@
 		(uuid "74f60430-2f83-4c2f-81ae-19af32590b26")
 	)
 	(label "SD1_Det"
-		(at 74.93 104.14 180)
+		(at 72.39 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5834,7 +5772,7 @@
 		(uuid "b60f3f7b-4584-4751-9d86-cf39c2a45665")
 	)
 	(label "SD2_Det"
-		(at 62.23 106.68 180)
+		(at 63.5 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6064,7 +6002,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0242f684-cd02-4422-9111-68ee2e684ff5")
-		(property "Reference" "D5"
+		(property "Reference" "D3"
 			(at 39.37 159.512 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6137,7 +6075,7 @@
 		(instances
 			(project "CaptainsLog"
 				(path "/dfd3e194-b5e4-41bf-aa35-3f9382cd25a4"
-					(reference "D5")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -6154,7 +6092,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0551144f-068d-4f74-a27c-d66898af4c31")
-		(property "Reference" "R18"
+		(property "Reference" "R6"
 			(at 155.194 63.246 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6216,7 +6154,7 @@
 		(instances
 			(project "CaptainsLog"
 				(path "/dfd3e194-b5e4-41bf-aa35-3f9382cd25a4"
-					(reference "R18")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -6313,7 +6251,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0683dc6b-121e-4b30-87e4-bf581646ea0a")
-		(property "Reference" "R20"
+		(property "Reference" "R9"
 			(at 147.574 102.616 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6375,90 +6313,7 @@
 		(instances
 			(project "CaptainsLog"
 				(path "/dfd3e194-b5e4-41bf-aa35-3f9382cd25a4"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "C_Small_1")
-		(lib_id "Device:C_Small")
-		(at 66.04 110.49 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0687af33-de48-4ec6-99fd-f0aec95a0484")
-		(property "Reference" "C6"
-			(at 68.58 109.2199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0u1"
-			(at 68.58 111.7599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 66.04 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 66.04 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "72108ae4-08bf-4dcd-803a-d3a10ba74a1d")
-		)
-		(pin "1"
-			(uuid "dbf71221-298d-4bfc-9860-ec5b2c81af4d")
-		)
-		(instances
-			(project "CaptainsLog"
-				(path "/dfd3e194-b5e4-41bf-aa35-3f9382cd25a4"
-					(reference "C6")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -6552,7 +6407,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "084a870c-9f8f-4df5-ae90-c2e83f2003e0")
-		(property "Reference" "TP3"
+		(property "Reference" "TP2"
 			(at 59.69 188.214 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6614,7 +6469,7 @@
 		(instances
 			(project "CaptainsLog"
 				(path "/dfd3e194-b5e4-41bf-aa35-3f9382cd25a4"
-					(reference "TP3")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -6743,7 +6598,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1598434e-be6f-4ed4-bfe1-f12ea3469e3a")
-		(property "Reference" "J5"
+		(property "Reference" "J2"
 			(at 256.286 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6829,87 +6684,7 @@
 		(instances
 			(project "CaptainsLog"
 				(path "/dfd3e194-b5e4-41bf-aa35-3f9382cd25a4"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 66.04 114.3 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19d38cb4-7c5a-4fca-a3b4-e25858fd8927")
-		(property "Reference" "#PWR016"
-			(at 66.04 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 66.04 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "69c4ab08-6402-4665-a0df-10f041b4d1d2")
-		)
-		(instances
-			(project "CaptainsLog"
-				(path "/dfd3e194-b5e4-41bf-aa35-3f9382cd25a4"
-					(reference "#PWR016")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -7085,7 +6860,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "28bf8dd0-8302-45e3-b9d2-02a269c63716")
-		(property "Reference" "R19"
+		(property "Reference" "R7"
 			(at 157.734 63.246 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7147,7 +6922,7 @@
 		(instances
 			(project "CaptainsLog"
 				(path "/dfd3e194-b5e4-41bf-aa35-3f9382cd25a4"
-					(reference "R19")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -7163,10 +6938,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "292c91b9-8296-449d-ac9a-950dbb613b5a")
 		(property "Reference" "D1"
-			(at 181.61 59.69 0)
+			(at 191.77 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7176,7 +6950,7 @@
 			)
 		)
 		(property "Value" "SP3011"
-			(at 181.61 62.23 0)
+			(at 181.61 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7279,10 +7053,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2c52e5d2-86f0-471e-b8b3-33ea133eff21")
 		(property "Reference" "U1"
-			(at 115.57 54.61 0)
+			(at 128.016 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7426,7 +7199,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2dcf1b0e-01d4-4a4c-a098-79ecf9455c1b")
-		(property "Reference" "TP9"
+		(property "Reference" "TP6"
 			(at 93.98 188.468 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7488,7 +7261,7 @@
 		(instances
 			(project "CaptainsLog"
 				(path "/dfd3e194-b5e4-41bf-aa35-3f9382cd25a4"
-					(reference "TP9")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -7505,7 +7278,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2e06e477-7b8d-44ab-a722-23a6405fea5a")
-		(property "Reference" "R14"
+		(property "Reference" "R17"
 			(at 26.67 185.674 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7567,7 +7340,7 @@
 		(instances
 			(project "CaptainsLog"
 				(path "/dfd3e194-b5e4-41bf-aa35-3f9382cd25a4"
-					(reference "R14")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -7584,7 +7357,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3495bd7a-ccd5-4a89-b6e1-b4f013dd03ea")
-		(property "Reference" "TP10"
+		(property "Reference" "TP5"
 			(at 94.488 179.578 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7646,7 +7419,7 @@
 		(instances
 			(project "CaptainsLog"
 				(path "/dfd3e194-b5e4-41bf-aa35-3f9382cd25a4"
-					(reference "TP10")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -7745,7 +7518,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "38de1be2-5a40-4212-bc85-999e4862f3fc")
-		(property "Reference" "C3"
+		(property "Reference" "C4"
 			(at 202.946 96.774 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7807,7 +7580,7 @@
 		(instances
 			(project "CaptainsLog"
 				(path "/dfd3e194-b5e4-41bf-aa35-3f9382cd25a4"
-					(reference "C3")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -7982,7 +7755,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4233efd4-ecf8-4d30-a3f6-4e7fc2eaf600")
-		(property "Reference" "R17"
+		(property "Reference" "R5"
 			(at 152.654 63.246 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8044,7 +7817,7 @@
 		(instances
 			(project "CaptainsLog"
 				(path "/dfd3e194-b5e4-41bf-aa35-3f9382cd25a4"
-					(reference "R17")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -8141,7 +7914,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "47af2696-11a9-42f0-aa50-077560f24072")
-		(property "Reference" "TP15"
+		(property "Reference" "TP4"
 			(at 76.708 188.214 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8203,7 +7976,7 @@
 		(instances
 			(project "CaptainsLog"
 				(path "/dfd3e194-b5e4-41bf-aa35-3f9382cd25a4"
-					(reference "TP15")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -8927,7 +8700,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "61f2ce2d-da42-4fca-b791-724b76f9507a")
-		(property "Reference" "C4"
+		(property "Reference" "C1"
 			(at 86.106 65.024 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8989,7 +8762,7 @@
 		(instances
 			(project "CaptainsLog"
 				(path "/dfd3e194-b5e4-41bf-aa35-3f9382cd25a4"
-					(reference "C4")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -9085,7 +8858,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7af4835b-4577-4e58-95c7-49e03f37c220")
-		(property "Reference" "R25"
+		(property "Reference" "R15"
 			(at 26.67 160.274 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9147,7 +8920,7 @@
 		(instances
 			(project "CaptainsLog"
 				(path "/dfd3e194-b5e4-41bf-aa35-3f9382cd25a4"
-					(reference "R25")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -9244,7 +9017,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8101e594-ebe3-4f07-a624-c3e29c3ae936")
-		(property "Reference" "R27"
+		(property "Reference" "R14"
 			(at 210.82 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9306,7 +9079,7 @@
 		(instances
 			(project "CaptainsLog"
 				(path "/dfd3e194-b5e4-41bf-aa35-3f9382cd25a4"
-					(reference "R27")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -9323,7 +9096,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8179af46-daa5-465e-b5f1-3fa43c535a0e")
-		(property "Reference" "R21"
+		(property "Reference" "R10"
 			(at 150.114 102.616 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9385,7 +9158,7 @@
 		(instances
 			(project "CaptainsLog"
 				(path "/dfd3e194-b5e4-41bf-aa35-3f9382cd25a4"
-					(reference "R21")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -9403,7 +9176,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "831d0f02-59d2-44af-a8c5-58da64bf5535")
-		(property "Reference" "J4"
+		(property "Reference" "J3"
 			(at 256.54 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9489,7 +9262,7 @@
 		(instances
 			(project "CaptainsLog"
 				(path "/dfd3e194-b5e4-41bf-aa35-3f9382cd25a4"
-					(reference "J4")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -9583,7 +9356,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8cd368f4-2e37-40b5-b438-57b7a19557b8")
-		(property "Reference" "R12"
+		(property "Reference" "R2"
 			(at 87.884 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9645,7 +9418,7 @@
 		(instances
 			(project "CaptainsLog"
 				(path "/dfd3e194-b5e4-41bf-aa35-3f9382cd25a4"
-					(reference "R12")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -9662,7 +9435,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8ef15b2e-4ea0-48bc-8076-e6dd6a4bc2ae")
-		(property "Reference" "R24"
+		(property "Reference" "R13"
 			(at 157.734 102.616 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9724,7 +9497,7 @@
 		(instances
 			(project "CaptainsLog"
 				(path "/dfd3e194-b5e4-41bf-aa35-3f9382cd25a4"
-					(reference "R24")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -9741,7 +9514,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "92307458-0279-4d6f-8b38-283a8f1ae866")
-		(property "Reference" "R15"
+		(property "Reference" "R3"
 			(at 147.574 63.246 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9803,7 +9576,7 @@
 		(instances
 			(project "CaptainsLog"
 				(path "/dfd3e194-b5e4-41bf-aa35-3f9382cd25a4"
-					(reference "R15")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -9978,10 +9751,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a4188847-f024-44fe-9ae3-1f20e80946a4")
 		(property "Reference" "D2"
-			(at 181.61 99.06 0)
+			(at 191.516 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9991,7 +9763,7 @@
 			)
 		)
 		(property "Value" "SP3011"
-			(at 181.61 101.6 0)
+			(at 181.61 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10096,7 +9868,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a54ecd3a-7d68-4610-83d0-ee19c89a14fb")
-		(property "Reference" "C7"
+		(property "Reference" "C2"
 			(at 93.726 65.024 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10160,7 +9932,7 @@
 		(instances
 			(project "CaptainsLog"
 				(path "/dfd3e194-b5e4-41bf-aa35-3f9382cd25a4"
-					(reference "C7")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -10177,7 +9949,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ac148af0-2025-40b0-9daa-0171e5e10cd7")
-		(property "Reference" "TP16"
+		(property "Reference" "TP3"
 			(at 76.962 179.578 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10239,7 +10011,7 @@
 		(instances
 			(project "CaptainsLog"
 				(path "/dfd3e194-b5e4-41bf-aa35-3f9382cd25a4"
-					(reference "TP16")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -10333,7 +10105,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b717e3e0-192c-4409-8900-6667694cbc20")
-		(property "Reference" "D6"
+		(property "Reference" "D4"
 			(at 39.37 172.212 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10406,7 +10178,7 @@
 		(instances
 			(project "CaptainsLog"
 				(path "/dfd3e194-b5e4-41bf-aa35-3f9382cd25a4"
-					(reference "D6")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -10503,7 +10275,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c13349e3-6c6c-470d-97cf-b378f141fb69")
-		(property "Reference" "R22"
+		(property "Reference" "R11"
 			(at 152.654 102.616 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10565,87 +10337,7 @@
 		(instances
 			(project "CaptainsLog"
 				(path "/dfd3e194-b5e4-41bf-aa35-3f9382cd25a4"
-					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 53.34 114.3 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c83f4c65-998e-437e-b234-894e1f506e29")
-		(property "Reference" "#PWR010"
-			(at 53.34 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 53.34 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "66d90af4-d6b2-449a-b7c7-9ad0ec0def9c")
-		)
-		(instances
-			(project "CaptainsLog"
-				(path "/dfd3e194-b5e4-41bf-aa35-3f9382cd25a4"
-					(reference "#PWR010")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -10742,7 +10434,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cf7bdfb7-9fb6-4a1a-a828-63b93797f906")
-		(property "Reference" "R23"
+		(property "Reference" "R12"
 			(at 155.194 102.616 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10804,7 +10496,7 @@
 		(instances
 			(project "CaptainsLog"
 				(path "/dfd3e194-b5e4-41bf-aa35-3f9382cd25a4"
-					(reference "R23")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -10898,7 +10590,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e1793e2c-0a8e-483c-b05b-72739bda06a9")
-		(property "Reference" "R16"
+		(property "Reference" "R4"
 			(at 150.114 63.246 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10960,7 +10652,7 @@
 		(instances
 			(project "CaptainsLog"
 				(path "/dfd3e194-b5e4-41bf-aa35-3f9382cd25a4"
-					(reference "R16")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -11059,7 +10751,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e4090edf-8d60-47a9-b929-d60048479fff")
-		(property "Reference" "C2"
+		(property "Reference" "C3"
 			(at 202.946 57.404 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11121,7 +10813,7 @@
 		(instances
 			(project "CaptainsLog"
 				(path "/dfd3e194-b5e4-41bf-aa35-3f9382cd25a4"
-					(reference "C2")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -11215,7 +10907,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eeafd87c-ad72-4d05-beeb-173db583d6d8")
-		(property "Reference" "R6"
+		(property "Reference" "R1"
 			(at 63.754 73.914 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11277,7 +10969,7 @@
 		(instances
 			(project "CaptainsLog"
 				(path "/dfd3e194-b5e4-41bf-aa35-3f9382cd25a4"
-					(reference "R6")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -11294,7 +10986,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f1c7514b-16f6-4538-85d5-faf409d5214b")
-		(property "Reference" "TP4"
+		(property "Reference" "TP1"
 			(at 59.69 179.578 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11356,7 +11048,7 @@
 		(instances
 			(project "CaptainsLog"
 				(path "/dfd3e194-b5e4-41bf-aa35-3f9382cd25a4"
-					(reference "TP4")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -11373,7 +11065,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fb5cc482-41bf-440c-bd0d-2ff6f26fff49")
-		(property "Reference" "R26"
+		(property "Reference" "R8"
 			(at 210.82 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11435,90 +11127,7 @@
 		(instances
 			(project "CaptainsLog"
 				(path "/dfd3e194-b5e4-41bf-aa35-3f9382cd25a4"
-					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "C_Small_1")
-		(lib_id "Device:C_Small")
-		(at 53.34 110.49 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fdd0a382-e213-414f-8607-d5a3e992192a")
-		(property "Reference" "C5"
-			(at 55.88 109.2199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0u1"
-			(at 55.88 111.7599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 53.34 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 53.34 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5a5f435e-8c96-4f6c-972c-21e9879265e6")
-		)
-		(pin "1"
-			(uuid "fe9aceb9-7b72-40b4-a11e-45c444782eed")
-		)
-		(instances
-			(project "CaptainsLog"
-				(path "/dfd3e194-b5e4-41bf-aa35-3f9382cd25a4"
-					(reference "C5")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -11535,7 +11144,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fe1f953c-9989-47da-a61d-01d118b7da10")
-		(property "Reference" "D4"
+		(property "Reference" "D5"
 			(at 39.37 184.912 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11608,7 +11217,7 @@
 		(instances
 			(project "CaptainsLog"
 				(path "/dfd3e194-b5e4-41bf-aa35-3f9382cd25a4"
-					(reference "D4")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -11625,7 +11234,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fff3b122-0357-4d56-ac40-fca03eb517bf")
-		(property "Reference" "R31"
+		(property "Reference" "R16"
 			(at 26.67 172.974 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11687,7 +11296,7 @@
 		(instances
 			(project "CaptainsLog"
 				(path "/dfd3e194-b5e4-41bf-aa35-3f9382cd25a4"
-					(reference "R31")
+					(reference "R16")
 					(unit 1)
 				)
 			)
