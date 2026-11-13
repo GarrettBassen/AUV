@@ -747,7 +747,7 @@
 				(pin input line
 					(at -16.51 13.97 0)
 					(length 2.54)
-					(name "OE"
+					(name "~{OE}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3557,15 +3557,25 @@
 		)
 		(uuid "97ea485d-9784-41d4-bf0a-9b8217fd1ad8")
 	)
-	(text "SD Select\n0 -> SD1\n1 -> SD2"
+	(text "SD Select\nLLL -> SD1\nLLH -> SD2"
 		(exclude_from_sim no)
-		(at 92.456 105.156 0)
+		(at 92.202 105.156 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "cad64a5d-55ad-4055-9248-7df6abd79662")
+	)
+	(text "Molex Connectors\nFemale: 0878311220\n  Male: 0511101251\nCrimps: 0503948054"
+		(exclude_from_sim no)
+		(at 35.306 119.126 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cca04f69-0a62-4a61-8874-5a4f10942433")
 	)
 	(text "Captain's Log"
 		(exclude_from_sim no)
@@ -3590,6 +3600,16 @@
 			)
 		)
 		(uuid "dd989da3-5a6b-4168-b176-734908be8ba6")
+	)
+	(text "Output Enable\nLLL -> On\nLLH -> Off"
+		(exclude_from_sim no)
+		(at 92.202 82.042 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "eedaf499-5438-450f-a320-ef166b6e919c")
 	)
 	(text "SDIO Signal Test Points"
 		(exclude_from_sim no)
@@ -3830,8 +3850,52 @@
 		(uuid "06ff94c9-db7a-4993-81f9-0f7ae8de4613")
 	)
 	(no_connect
+		(at 25.4 83.82)
+		(uuid "1ea03e9f-7928-473e-958b-889cea2b5fc4")
+	)
+	(no_connect
+		(at 25.4 93.98)
+		(uuid "29715342-d7bb-466e-94a1-043b43a25cc2")
+	)
+	(no_connect
+		(at 25.4 96.52)
+		(uuid "2c9111d5-b4bd-4e3f-8928-a6ab940c8e0e")
+	)
+	(no_connect
+		(at 25.4 101.6)
+		(uuid "2daa0a93-fc8c-4411-89cf-0848675dad4f")
+	)
+	(no_connect
+		(at 25.4 99.06)
+		(uuid "321f7707-6b26-4bf3-9649-6f9ddc09ca71")
+	)
+	(no_connect
+		(at 25.4 81.28)
+		(uuid "4132f175-1a2b-4592-a912-5ff3a509a467")
+	)
+	(no_connect
 		(at 124.46 182.88)
 		(uuid "4489d6d2-f97a-4a3b-8839-8ace3ae74a96")
+	)
+	(no_connect
+		(at 25.4 104.14)
+		(uuid "587dd6e7-9490-4093-8e3d-c34491ecedd2")
+	)
+	(no_connect
+		(at 25.4 86.36)
+		(uuid "58c88c79-3cfa-471c-98c6-fb3305196d27")
+	)
+	(no_connect
+		(at 25.4 109.22)
+		(uuid "86710b37-c484-4a38-ae88-961bd071fe8f")
+	)
+	(no_connect
+		(at 25.4 106.68)
+		(uuid "a9c252e8-704a-47fd-ae8a-329417aebe73")
+	)
+	(no_connect
+		(at 25.4 91.44)
+		(uuid "ae1be731-4837-4b97-a6d9-276f1efa50ee")
 	)
 	(no_connect
 		(at 114.3 191.77)
@@ -3840,6 +3904,10 @@
 	(no_connect
 		(at 114.3 182.88)
 		(uuid "deded446-1bf9-435c-bd5d-a1bff2aed897")
+	)
+	(no_connect
+		(at 25.4 88.9)
+		(uuid "f83739b7-ddc6-4f76-a9cf-21cb4c73b6d6")
 	)
 	(wire
 		(pts
@@ -3853,7 +3921,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 110.49) (xy 90.17 110.49)
+			(xy 82.55 110.49) (xy 90.17 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3983,7 +4051,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 101.6) (xy 83.82 101.6)
+			(xy 43.18 101.6) (xy 82.55 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4583,7 +4651,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 93.98) (xy 99.06 93.98)
+			(xy 43.18 93.98) (xy 62.23 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4903,6 +4971,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 93.98) (xy 99.06 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ddb52a9-6184-474c-b60b-be0a4bd994c1")
+	)
+	(wire
+		(pts
 			(xy 156.21 53.34) (xy 156.21 54.61)
 		)
 		(stroke
@@ -5063,7 +5141,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 101.6) (xy 83.82 110.49)
+			(xy 82.55 101.6) (xy 82.55 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5590,6 +5668,16 @@
 			(justify right bottom)
 		)
 		(uuid "4d69a7df-9d11-4ccd-af94-a70855bb27f3")
+	)
+	(label "MUX_CLK_IN"
+		(at 97.79 93.98 180)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify right bottom)
+		)
+		(uuid "555d7214-93aa-4a80-ae83-d911f30980d4")
 	)
 	(label "SD_DAT0_IN"
 		(at 44.45 96.52 0)
@@ -6497,8 +6585,8 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x12"
-			(at 38.1 77.47 0)
+		(property "Value" "Molex 0878311220"
+			(at 38.1 116.332 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8056,6 +8144,85 @@
 			(project "CaptainsLog"
 				(path "/dfd3e194-b5e4-41bf-aa35-3f9382cd25a4"
 					(reference "#PWR23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 66.04 93.98 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "492a48cc-a5a7-4110-b524-a9a84b8e7eb2")
+		(property "Reference" "R18"
+			(at 70.866 92.964 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0k"
+			(at 66.04 93.98 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 66.04 92.202 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 66.04 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3713fa93-2f7a-486f-a2bb-9ca45993ea77")
+		)
+		(pin "2"
+			(uuid "3e1debdf-b4b2-405e-9097-8038fd10fc3a")
+		)
+		(instances
+			(project "CaptainsLog"
+				(path "/dfd3e194-b5e4-41bf-aa35-3f9382cd25a4"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -10089,6 +10256,116 @@
 			(project "CaptainsLog"
 				(path "/dfd3e194-b5e4-41bf-aa35-3f9382cd25a4"
 					(reference "#PWR35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x12")
+		(at 30.48 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp yes)
+		(uuid "b1ed0045-a782-4818-98fc-23a1a7e798a7")
+		(property "Reference" "J4"
+			(at 30.48 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Molex 0878311220"
+			(at 30.48 116.332 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical"
+			(at 30.48 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 30.48 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "18a512a4-f771-478a-95d9-ae78fe068ed6")
+		)
+		(pin "9"
+			(uuid "5668dc66-d30b-49f7-8305-4b9843efb7c4")
+		)
+		(pin "12"
+			(uuid "6ac97a1a-4e52-4198-b9aa-546840ead788")
+		)
+		(pin "8"
+			(uuid "3eddc934-8d44-452b-88f6-0f61178bae81")
+		)
+		(pin "7"
+			(uuid "22589bc9-f8d8-418a-b1f4-5ddff5389d31")
+		)
+		(pin "6"
+			(uuid "5d71f056-c1b9-4f67-a9da-0886cf73f556")
+		)
+		(pin "1"
+			(uuid "4c2bec5e-a6ee-43cd-b7cb-baf77b6bd27d")
+		)
+		(pin "3"
+			(uuid "d1768ea7-b767-4101-9f77-3d24cb05fe02")
+		)
+		(pin "11"
+			(uuid "f7142210-4153-4fba-aad5-83693a3e1a36")
+		)
+		(pin "2"
+			(uuid "d57c9324-fabe-4ba2-9966-3bcfddb13f78")
+		)
+		(pin "4"
+			(uuid "d472f8c6-4488-4eb9-8637-875334eb158e")
+		)
+		(pin "10"
+			(uuid "ced005b6-4d9a-4f0d-b895-01deb741d179")
+		)
+		(instances
+			(project "CaptainsLog"
+				(path "/dfd3e194-b5e4-41bf-aa35-3f9382cd25a4"
+					(reference "J4")
 					(unit 1)
 				)
 			)
