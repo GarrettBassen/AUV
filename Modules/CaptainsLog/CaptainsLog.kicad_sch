@@ -3620,7 +3620,7 @@
 		)
 		(uuid "cad64a5d-55ad-4055-9248-7df6abd79662")
 	)
-	(text "Molex Connectors\nFemale: 878311241\n  Male: 511101260\nCrimps: 503948054"
+	(text "Molex Connectors\nFemale: 878311041\n  Male: 511101051\nCrimps: 503948054"
 		(exclude_from_sim no)
 		(at 38.862 119.38 0)
 		(effects
