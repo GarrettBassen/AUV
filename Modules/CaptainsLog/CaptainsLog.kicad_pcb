@@ -206,17 +206,23 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b1b5d8cc-9c41-48dd-834c-04774bd99f15")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/1ff573d4-6368-47e5-af9f-484d2bc084c9")
 		(sheetname "/")
 		(sheetfile "CaptainsLog.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -315,16 +321,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9ff34675-bb1f-4ce6-8a99-e0d211bebbfd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/eeafd87c-ad72-4d05-beeb-173db583d6d8")
 		(sheetname "/")
 		(sheetfile "CaptainsLog.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -455,16 +467,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "35e4b09e-93a9-487f-bd26-76615e3f1377")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/8cd368f4-2e37-40b5-b438-57b7a19557b8")
 		(sheetname "/")
 		(sheetfile "CaptainsLog.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -595,16 +613,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a2bece88-58cf-44e6-bdfc-c95a9b183245")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e1793e2c-0a8e-483c-b05b-72739bda06a9")
 		(sheetname "/")
 		(sheetfile "CaptainsLog.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -743,12 +767,6 @@
 		(path "/a4188847-f024-44fe-9ae3-1f20e80946a4")
 		(sheetname "/")
 		(sheetfile "CaptainsLog.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "6" "7" "5" "10" "14" "13" "12" "11" "9" "8")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1012,12 +1030,6 @@
 		(path "/292c91b9-8296-449d-ac9a-950dbb613b5a")
 		(sheetname "/")
 		(sheetfile "CaptainsLog.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "6" "7" "5" "10" "14" "13" "12" "11" "9" "8")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1274,17 +1286,23 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8990c0b5-b189-44b3-a75f-0f5619e04c01")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/6b28df9f-d99c-4420-8688-d21c58ea7e3c")
 		(sheetname "/")
 		(sheetfile "CaptainsLog.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -1383,16 +1401,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 315)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6c80ef31-8c23-4437-9223-f98d3df5212f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/92307458-0279-4d6f-8b38-283a8f1ae866")
 		(sheetname "/")
 		(sheetfile "CaptainsLog.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -1525,21 +1549,27 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 135)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "151ff3c9-145b-4f7c-bfce-a333562b4023")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/28bf8dd0-8302-45e3-b9d2-02a269c63716")
 		(sheetname "/")
 		(sheetfile "CaptainsLog.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
-				(xy 0.7 0.35) (xy -0.7 0.35) (xy -0.7 -0.35) (xy 0.7 -0.35)
+				(xy -0.7 -0.35) (xy 0.7 -0.35) (xy 0.7 0.35) (xy -0.7 0.35)
 			)
 			(stroke
 				(width 0.05)
@@ -1551,7 +1581,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy 0.3 0.15) (xy -0.3 0.15) (xy -0.3 -0.15) (xy 0.3 -0.15)
+				(xy -0.3 -0.15) (xy 0.3 -0.15) (xy 0.3 0.15) (xy -0.3 0.15)
 			)
 			(stroke
 				(width 0.1)
@@ -1667,16 +1697,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "bc2288bf-530a-4906-9cc5-dc43e94590eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/fb5cc482-41bf-440c-bd0d-2ff6f26fff49")
 		(sheetname "/")
 		(sheetfile "CaptainsLog.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1778,7 +1814,7 @@
 				)
 			)
 		)
-		(property "Value" "MEM2067"
+		(property "Value" "GCT_MEM2067-02-180-00-A_REVB"
 			(at 21.47881 8.54627 90)
 			(layer "F.Fab")
 			(uuid "d95a3d05-df1c-4d0a-8a9f-ce2f8cf40ba8")
@@ -1815,12 +1851,6 @@
 		(path "/1598434e-be6f-4ed4-bfe1-f12ea3469e3a")
 		(sheetname "/")
 		(sheetfile "CaptainsLog.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "SH" "6" "4" "1" "2" "3" "5" "7" "8")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2568,16 +2598,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 45)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ccbdfb92-a79d-4ce2-a533-464c646fea8d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c13349e3-6c6c-470d-97cf-b378f141fb69")
 		(sheetname "/")
 		(sheetfile "CaptainsLog.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -2718,12 +2754,7 @@
 		(path "/3495bd7a-ccd5-4a89-b6e1-b4f013dd03ea")
 		(sheetname "/")
 		(sheetfile "CaptainsLog.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -2819,16 +2850,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "bd2bbabf-a147-4920-9fd9-436a154f67e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/2e06e477-7b8d-44ab-a722-23a6405fea5a")
 		(sheetname "/")
 		(sheetfile "CaptainsLog.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2965,7 +3002,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "KiLib_Generator" "1=K 2=A"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2982,12 +3019,6 @@
 		(path "/b717e3e0-192c-4409-8900-6667694cbc20")
 		(sheetname "/")
 		(sheetfile "CaptainsLog.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3183,13 +3214,7 @@
 		(path "/db6d9474-9400-4394-b25c-a286405a4647")
 		(sheetname "/")
 		(sheetfile "CaptainsLog.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "6" "7" "8" "9" "10")
-			)
-		)
-		(attr smd)
+		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -6.425 3.25)
@@ -3489,21 +3514,27 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 135)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "dabfd3d7-fcf8-4f15-a559-3af13df62fa9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0551144f-068d-4f74-a27c-d66898af4c31")
 		(sheetname "/")
 		(sheetfile "CaptainsLog.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
-				(xy 0.7 0.35) (xy -0.7 0.35) (xy -0.7 -0.35) (xy 0.7 -0.35)
+				(xy -0.7 -0.35) (xy 0.7 -0.35) (xy 0.7 0.35) (xy -0.7 0.35)
 			)
 			(stroke
 				(width 0.05)
@@ -3515,7 +3546,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy 0.3 0.15) (xy -0.3 0.15) (xy -0.3 -0.15) (xy 0.3 -0.15)
+				(xy -0.3 -0.15) (xy 0.3 -0.15) (xy 0.3 0.15) (xy -0.3 0.15)
 			)
 			(stroke
 				(width 0.1)
@@ -3632,17 +3663,23 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "08bdaf7b-a74c-4930-aba9-4b0f1826f073")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/9573dda7-6fd4-420a-8533-aa7b70b752ac")
 		(sheetname "/")
 		(sheetfile "CaptainsLog.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -3741,16 +3778,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "eeb5ddbe-9a70-4ca3-8229-48aa122bc4c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/38de1be2-5a40-4212-bc85-999e4862f3fc")
 		(sheetname "/")
 		(sheetfile "CaptainsLog.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3887,16 +3930,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ae1f712f-f1ec-438a-9a53-02d732722911")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/e4090edf-8d60-47a9-b929-d60048479fff")
 		(sheetname "/")
 		(sheetfile "CaptainsLog.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4033,21 +4082,27 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 315)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7d117f0a-7224-4470-8d3f-1f935f22e19d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/4233efd4-ecf8-4d30-a3f6-4e7fc2eaf600")
 		(sheetname "/")
 		(sheetfile "CaptainsLog.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
-				(xy 0.7 -0.35) (xy 0.7 0.35) (xy -0.7 0.35) (xy -0.7 -0.35)
+				(xy -0.7 -0.35) (xy 0.7 -0.35) (xy 0.7 0.35) (xy -0.7 0.35)
 			)
 			(stroke
 				(width 0.05)
@@ -4059,7 +4114,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy 0.3 -0.15) (xy 0.3 0.15) (xy -0.3 0.15) (xy -0.3 -0.15)
+				(xy -0.3 -0.15) (xy 0.3 -0.15) (xy 0.3 0.15) (xy -0.3 0.15)
 			)
 			(stroke
 				(width 0.1)
@@ -4175,16 +4230,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "12dcc477-72fd-413d-8b84-ec520d66a44c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/61f2ce2d-da42-4fca-b791-724b76f9507a")
 		(sheetname "/")
 		(sheetfile "CaptainsLog.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4329,12 +4390,7 @@
 		(path "/47af2696-11a9-42f0-aa50-077560f24072")
 		(sheetname "/")
 		(sheetfile "CaptainsLog.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -4430,16 +4486,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 225)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5644ac21-0867-40b4-923d-6bdd54daaf9a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0683dc6b-121e-4b30-87e4-bf581646ea0a")
 		(sheetname "/")
 		(sheetfile "CaptainsLog.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -4579,14 +4641,6 @@
 		(path "/2c52e5d2-86f0-471e-b8b3-33ea133eff21")
 		(sheetname "/")
 		(sheetfile "CaptainsLog.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "6" "2" "3" "4" "5" "8" "9" "10" "11" "7" "22" "1" "24" "23" "21"
-					"20" "19" "15" "18" "17" "16" "14" "13" "12"
-				)
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5027,16 +5081,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2d453f14-6a03-4852-b090-09d0befe9420")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/fff3b122-0357-4d56-ac40-fca03eb517bf")
 		(sheetname "/")
 		(sheetfile "CaptainsLog.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5173,7 +5233,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "KiLib_Generator" "1=K 2=A"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5190,12 +5250,6 @@
 		(path "/fe1f953c-9989-47da-a61d-01d118b7da10")
 		(sheetname "/")
 		(sheetfile "CaptainsLog.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5348,7 +5402,7 @@
 				)
 			)
 		)
-		(property "Value" "MEM2067"
+		(property "Value" "GCT_MEM2067-02-180-00-A_REVB"
 			(at 21.47881 8.54627 90)
 			(layer "F.Fab")
 			(uuid "93408f81-da47-4981-a9be-dd2b6f73cc2b")
@@ -5385,12 +5439,6 @@
 		(path "/831d0f02-59d2-44af-a8c5-58da64bf5535")
 		(sheetname "/")
 		(sheetfile "CaptainsLog.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "SH" "6" "4" "1" "2" "3" "5" "7" "8")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6138,16 +6186,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7195f6ab-9b7a-46ab-9d73-10d9178b49dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/cf7bdfb7-9fb6-4a1a-a828-63b93797f906")
 		(sheetname "/")
 		(sheetfile "CaptainsLog.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -6278,16 +6332,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e44bf5ff-b2d3-40f4-902d-ad21116fdd9b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a54ecd3a-7d68-4610-83d0-ee19c89a14fb")
 		(sheetname "/")
 		(sheetfile "CaptainsLog.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6424,7 +6484,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "KiLib_Generator" "1=K 2=A"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6441,12 +6501,6 @@
 		(path "/0242f684-cd02-4422-9111-68ee2e684ff5")
 		(sheetname "/")
 		(sheetfile "CaptainsLog.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6634,16 +6688,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "26803336-772d-445d-9065-b4bdbc677b3d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/7af4835b-4577-4e58-95c7-49e03f37c220")
 		(sheetname "/")
 		(sheetfile "CaptainsLog.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6781,17 +6841,23 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9ab6428e-9c58-42b3-8e53-9234ccf87003")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/5a34e840-802c-4b0f-bdc5-33de67042a4b")
 		(sheetname "/")
 		(sheetfile "CaptainsLog.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -6898,12 +6964,7 @@
 		(path "/ac148af0-2025-40b0-9daa-0171e5e10cd7")
 		(sheetname "/")
 		(sheetfile "CaptainsLog.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -6999,16 +7060,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 225)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c25c08ba-c2d8-4345-a879-751a2accb779")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/8179af46-daa5-465e-b5f1-3fa43c535a0e")
 		(sheetname "/")
 		(sheetfile "CaptainsLog.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -7149,12 +7216,7 @@
 		(path "/2dcf1b0e-01d4-4a4c-a098-79ecf9455c1b")
 		(sheetname "/")
 		(sheetfile "CaptainsLog.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -7250,16 +7312,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a69b42ae-5cb7-4bb7-87ba-dfeb48f6d7a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/8101e594-ebe3-4f07-a624-c3e29c3ae936")
 		(sheetname "/")
 		(sheetfile "CaptainsLog.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7396,21 +7464,27 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 135)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6d137a41-c0ad-49f4-9b7c-21f2e9202f20")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/492a48cc-a5a7-4110-b524-a9a84b8e7eb2")
 		(sheetname "/")
 		(sheetfile "CaptainsLog.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
-				(xy 0.7 0.35) (xy -0.7 0.35) (xy -0.7 -0.35) (xy 0.7 -0.35)
+				(xy -0.7 -0.35) (xy 0.7 -0.35) (xy 0.7 0.35) (xy -0.7 0.35)
 			)
 			(stroke
 				(width 0.05)
@@ -7422,7 +7496,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy 0.3 0.15) (xy -0.3 0.15) (xy -0.3 -0.15) (xy 0.3 -0.15)
+				(xy -0.3 -0.15) (xy 0.3 -0.15) (xy 0.3 0.15) (xy -0.3 0.15)
 			)
 			(stroke
 				(width 0.1)
@@ -7538,21 +7612,27 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 45)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a64d4e1b-f06b-434b-bab3-65ddcbdd051a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/8ef15b2e-4ea0-48bc-8076-e6dd6a4bc2ae")
 		(sheetname "/")
 		(sheetfile "CaptainsLog.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
-				(xy 0.7 -0.35) (xy 0.7 0.35) (xy -0.7 0.35) (xy -0.7 -0.35)
+				(xy -0.7 -0.35) (xy 0.7 -0.35) (xy 0.7 0.35) (xy -0.7 0.35)
 			)
 			(stroke
 				(width 0.05)
@@ -7564,7 +7644,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy 0.3 -0.15) (xy 0.3 0.15) (xy -0.3 0.15) (xy -0.3 -0.15)
+				(xy -0.3 -0.15) (xy 0.3 -0.15) (xy 0.3 0.15) (xy -0.3 0.15)
 			)
 			(stroke
 				(width 0.1)
@@ -8181,7 +8261,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Captain's Log\nGarrett Bassen\nNov/11/2026"
+	(gr_text "Captain's Log\nGarrett Bassen\nNov/16/2026"
 		(at 113.6 74.2 0)
 		(layer "F.SilkS")
 		(uuid "9dac3bfe-bca8-4eda-b3df-0480f71d0f36")

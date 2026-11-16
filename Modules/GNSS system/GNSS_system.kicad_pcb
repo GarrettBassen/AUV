@@ -208,7 +208,7 @@
 		(path "/67280f21-4a51-435c-85d5-ba7ae8b0cbb0")
 		(sheetname "/")
 		(sheetfile "GNSS_system.kicad_sch")
-		(attr smd)
+		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 6.425 -3.25)
@@ -513,7 +513,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ad20f3ec-511a-46bc-9623-83a2f30a7513")
+			(uuid "978e612a-af67-406a-b019-7ab33678e723")
 			(effects
 				(font
 					(size 1 1)
@@ -716,7 +716,7 @@
 			(at 0 0 270)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "6f288ebf-c7ad-44d6-b243-8e9cf92eb777")
+			(uuid "94a521d3-61ad-445f-99a0-5610a8ae9cab")
 			(effects
 				(font
 					(size 1 1)
@@ -2018,7 +2018,7 @@
 			(at 0 0 270)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "14769b62-1f3d-4ab2-9446-8a58063c916c")
+			(uuid "cab26299-3d41-414b-a5b1-afbedc348305")
 			(effects
 				(font
 					(size 1 1)
@@ -2170,7 +2170,7 @@
 			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "deb46a7d-f3eb-41ff-a477-ebadc7b78005")
+			(uuid "b48facbb-e5dc-4c31-9da6-4ce98afe3759")
 			(effects
 				(font
 					(size 1 1)

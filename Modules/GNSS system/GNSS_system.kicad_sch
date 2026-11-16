@@ -8,8 +8,8 @@
 		(title "Sunstone GPS Module")
 		(date "2026-11-16")
 		(rev "A")
-		(company "Rattus Elektronisk")
-		(comment 1 "Collin Davis")
+		(company "Collin Davis")
+		(comment 1 "GNSS breakout board")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x10_Socket"
